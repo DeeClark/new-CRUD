@@ -1,0 +1,77 @@
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Auto Track </title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+
+	
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body>
+	<div data-role="page" id="home-page" class="ui-body ui-body-c">
+		<div data-role="header" data-position="inline" data-theme="e" >
+			<a href="https://github.com/DeeClark/MiU-1203" data-icon="home">GIT Link</a>
+			<h1>AUTO TRACK</h1>
+			<a href="http://deeclark.github.com/new-crud/" data-icon="refresh">gh-page</a>
+		</div>
+
+	<div data-role="content">
+	
+	
+		
+		<form action="#" method="post" id="events">
+			<fieldset>
+				<legend>Vehicle Info</legend>
+				<ul id="manufac">
+					<label for="select-choice-0" class="select">What type of vehicle is it?</label>
+						<select name="select-choice-0" id="select-choice-1">
+   							<option value="car">Car</option>
+   							<option value="boat">Boat</option>
+  							<option value="truck">Truck</option>
+ 					   	 	<option value="sub">SUV</option>
+ 					   	 	<option value="RV">RV</option>
+						</select>
+					<li><label for="auto">Name your vehicle</label><input type="text" id="auto" /></li>
+					<li><label for="miles"></label><input type="text" id="miles" /></li>
+					<li><label for="save">Save vehicle?</label><input type="checkbox" id="save" /></li>
+				</ul>
+	
+			</fieldset>
+			<fieldset>
+				<legend>Service Info</legend>
+					
+			</fieldset>
+			<button type="button" id="submit">Submit</button>
+			<a href="#" id="clear">Clear stored data!</a>
+			<a href="#" id="display">Display stored data</a>
+		
+		</form>
+		</div><!--/content-->
+		</div><!--/page-->
+
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	
+	
+	
+	</div>
+
+</body>
+</html>
